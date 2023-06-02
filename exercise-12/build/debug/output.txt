@@ -1,0 +1,29 @@
+People:
+Name: wang-li
+Sex: m
+Age: 23
+
+Student:
+Name: wang-li
+Sex: m
+Age: 23
+No.: 2012100365
+Score: 92.5
+
+Teacher:
+Name: wang-li
+Sex: m
+Age: 23
+Position: assistant
+Department: computer
+
+GradOnWork:
+Name: wang-li
+Sex: m
+Age: 23
+No.: 2012100365
+Score: 92.5
+Position: assistant
+Department: computer
+Direction: robot
+Tutor: zhao-jun

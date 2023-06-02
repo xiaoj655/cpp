@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.tcc": "cpp",
+    "bitset": "cpp",
+    "condition_variable": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "future": "cpp",
+    "string_view": "cpp",
+    "type_traits": "cpp",
+    "variant": "cpp"
+  }
+}

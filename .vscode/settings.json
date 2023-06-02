@@ -1,0 +1,12 @@
+{
+    "code-runner.executorMap":{
+        "c" :"cd $dir && g++ $fileName -o ./build/$fileNameWithoutExt && ./build/$fileNameWithoutExt",
+        "cpp":"cd $dir && g++ $fileName -o ./build/$fileNameWithoutExt && ./build/$fileNameWithoutExt"
+    },
+    "files.associations": {
+        "ostream": "cpp",
+        "string": "cpp",
+        "iostream": "cpp",
+        "chrono": "cpp"
+    }
+}
