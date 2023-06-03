@@ -5,4 +5,5 @@ function g {
     mkdir ./build
     g++ $1 -o ./build/$1.out
   fi
+  ./build/$1.out
 }

@@ -1,0 +1,2000 @@
+git status
+cd ..
+ll
+cd Downloads/
+cd hexoblog/
+git submodule update --init --recursive
+hexo s
+npm i
+hexo s
+git clone git@github.com:xiaoj655/hexoblog.git
+ssh root@http://47.120.41.52/
+ssh root@47.120.41.52
+rm -rf .git
+git init
+git remote add origin git@github.com:xiaoj655/hexoblog.git
+bit branch -M main
+git branch -M main
+git push -u origin main
+git add .
+git commit -m 'first'
+git push -u origin main
+yarn -v
+npm i -g yarn
+yarn -v
+yarn config get registry
+yarn config set registry https://registry.npm.taobao.org/
+yarn test
+yarn test --network-timeout 10000
+ll
+cd nodejs/
+yarn test
+ll
+mkdir yarnafter
+cd yarnafter/
+yarn init
+yarn test
+yarn test --network-timeout 10000
+yarn i test
+yarn add teset
+yarn add test
+yarn test --network-timeout 10000
+yarn test
+yarn remove test
+yarn -v
+sudo apt install format-dev
+sudo dpkg -i discord-0.0.27.deb 
+sudo dpkg -i mongodb-org-server_6.0.5_amd64.deb 
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release -sc)"/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+sudo apt-get update
+sudo apt-get i mongodb-org
+sudo apt-get install mongodb-org
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+echo "deb http://repo.mongodb.org/apt/ubuntu $(lsb_release -sc)/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+sudo apt-get install mongodb-org
+sudo brew install mongodb-atlas
+sudo apt install mongodb-atlas
+sudo apt install brew
+sudo apt-get install brew
+sudo systemctl start mogod
+sudo dpkg uninstall mongodb
+sudo dpkg remove mongodb
+dpkg -h
+dpkg --help
+sudo dpkg -r mongodb
+sudo systemctl stop mongodb
+sudo systemctl status mongodb
+sudo systemctl status mongod
+sudo systemctl stop mongod
+sudo dpkg -r mongodb
+sudo dpkg -r mongod
+mongo
+ls /usr/bin/mongo
+sudo apt-get install -y mongodb
+mongo --v
+sudo systemctl start mongodb
+mongod
+mongodb
+mongod
+mongo
+db
+systemctl mongodb
+systemctl status mongodb
+systemctl status mongod
+mongod
+mongo
+sudo apt-get install mongodb
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+sudo apt-get install mongodb
+sudo apt-get update 
+sudo apt-get install -y mongodb-org
+apt --fix-broken install 
+sudo apt --fix-broken install 
+sudo apt-get install -y mongodb-org
+sudo apt-get install -y libssl1.1
+sudo nano /etc/apt/sources.list
+sudo apt-get update
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
+sudo apt-get update 
+sudo apt-get install -y mongodb-org
+mongodb
+systemctl start mongodb
+systemctl start mongod.service 
+mongo
+poweroff
+sudo systemctl start mongod
+sudo systemctl status mongod
+sudo systemctl stop mongod.service 
+sudo systemctl status mongod
+sudo systemctl stop mongod
+sudo systemctl status mongod
+sudo systemctl start mongod
+mongo
+sudo systemctl status mongo
+sudo systemctl status mongod
+sudo mongo
+touch CET4_mydataquick.txt
+ll
+cd ../Documents/
+ll
+mkdir birthday
+cd birthday/
+git clone https://github.com/shibobo/happybirthday.git
+git init
+git add .
+git commit -m '1'
+git remote add origin git@github.com:xiaoj655/lddbirthday.git
+git branch -M main
+git push -u origin main
+git clone git@github.com:xiaoj655/lddbirthday.git
+git status
+git add .
+git commit -m '6'
+git push
+# Clone this repository or download
+$ git clone https://github.com/fajaraldev/happybirthday
+# Go into the repository
+$ cd happybirthday
+# Open with your text editor
+$ code .
+git clone https://github.com/fajaraldev/happybirthday
+ssh root@47.120.41.52
+ssh root@47.120.41.52
+ll
+git add.
+git status
+git add .
+git commit -m "finished"
+git push 
+g++ -o FileName.cpp
+g++ FileName.cpp -o 
+g++ FileName.cpp -
+g++ FileName.cpp 
+ssh root@47.120.41.52
+sudo dpkg -i steam_latest.deb 
+steam
+ssh root@47.120.41.52
+git commit -am "3"
+git push
+git status
+git add.
+git add .
+git commit -m '3'
+git p
+git pus
+git push
+kill clash
+./cfw
+./cfw
+nano sshtoaliyun.sh
+./sshtoaliyun.sh
+chmod +x sshtoaliyun.sh 
+./sshtoaliyun.sh
+touch test
+lsof -i :8080
+lsof -i :8081
+kill 16961
+lsof -i :8081
+lsof -i :8080
+mkdir vue-5
+cd vue-5
+vue create JD
+vue create jd
+cd jd/
+code
+cd ..
+ll
+cd /home/
+ll
+cd brook/
+ll
+./sshtoaliyun.sh 
+pwd
+git remote add origin git@github.com:xiaoj655/-copy/git
+git branch -M main
+git status
+git add .
+git commit -m 'first'
+git push
+git push -u origin main
+git remote add origin git@github.com:xiaoj655/-copy.git
+git remote -h
+git remote -v
+git remote set-url origin git@github.com:xiaoj655/-copy.git
+git remote -v
+git push -u origin main
+ll
+cd /var/
+ll
+cd ..
+ll
+cd var/
+ll
+cd tmp/
+ll
+cd /usr/
+ll
+cd ..
+ll
+cd home/
+ll
+cd brook/
+ll
+git clone git@github.com:xiaoj655/-copy.git
+ll
+./sshtoaliyun.sh 
+cd /home/
+ll
+cd brook/
+./sshtoaliyun.sh 
+cd ~
+ll
+cd /home/
+./sshto
+'/home/brook/sshtoaliyun.sh' 
+cd /home/
+./sshtoaliyun
+./sshtoaliyun.sh
+ll
+cd brook/
+ll
+./sshtoaliyun.sh 
+cd /home/brook/
+./sshtoaliyun.sh 
+cd vueproject/
+ll
+cd vue-5
+cd jd/
+git status
+git add ,
+git add .
+git commit -m '2'
+git push
+git clone https://github.com/youranreus/acm-abcroll.git
+yarn serve
+yarn
+cd ..
+git clone https://github.com/youranreus/wechat-bot.git
+cd wechat-bot/
+pnpm install
+yarn add pnpm -g
+pnpm install
+pnpm -v
+npm i
+cp .env.example .env
+npm run dev
+sudo apt remove yarn
+```
+git clone https://github.com/youranreus/youthcamp-tutouyubeiTeam-tutouMusic.git
+cd youthcamp-tutouyubeiTeam-tutouMusic/
+ll
+npm install
+npm run dev
+pwd
+cd youthcamp-tutouyubeiTeam-tutouMusic/
+npm run dev
+node app.js
+npm install
+node app.js
+cd .quasar/
+node app.js
+cd /home/brook/
+./sshtoaliyun.sh 
+git status
+npm run dev
+ll
+cd ~
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+cd /home/brook/
+./sshtoaliyun.sh 
+cd /home/brook/
+./sshtoaliyun.sh 
+cd /home/brook/
+./sshtoaliyun.sh 
+cd /home/brook/
+./sshtoaliyun.sh 
+cd /home/brook/
+./sshtoaliyun.sh 
+cd /home/brook/
+./sshtoaliyun.sh 
+pwd
+ll
+git init
+git add .
+git commit -m '1'
+git remote add origin git@github.com:xiaoj655/sslbook.git
+git push -u origin main
+git branch -M main
+git push -u origin main
+cd /home/brook/
+./sshtoaliyun.sh 
+pnpm install
+npm install pnpm
+pnpm install
+yarn
+npm install -g pnpm
+pnpm -v
+pnpm install
+pnpm config get registry
+pnpm config set registry https://registry.npm.taobao.org/
+pnpm run dev
+pnpm dev
+./sshtoaliyun.sh 
+GET https://api.github.com/repos/:owner/:repo/languages
+GET https://api.github.com/repos/xiaoj655/jdcopy/languages
+find ./src "(" -name "*.html" -or -name "*.vue" -or -name "*.js" -or -name "*.ts"  -or -name "*.css" -or -name "*.styl" -or -name "*.less" -or -name "*.scss" ")" -print | xargs wc -l
+git commit -a 'default'
+git commit -a -m 'default'
+git push
+cd /home/brook/
+./sshtoaliyun.sh 
+cd /home/brook/
+./sshtoaliyun.sh 
+git clone https://github.com/fubicheng208/self-introduction.git
+pnpm install
+pnpm serve
+npm run
+npm run dev
+npm run serve
+yarn serve
+yarn
+yarn serve
+git clone https://github.com/fubicheng208/self-introduction.git
+pwd
+cd ..
+ll
+rm -r self-introduction/
+ll
+cd /home/brook/vueproject/
+git clone https://github.com/fubicheng208/self-introduction.git
+cd self-introduction/
+yarn 
+nvm -v
+nvm ls-remote
+nvm ls
+nvm install 17
+nano ~/.bashrc
+source ~/.bashrc
+nvm install 17
+node -v
+yarn serve
+yarn -v
+yarn serve
+yarn seve
+yarn serve
+yarn
+nvm use 17
+yarn serve
+npm install  yarn
+yarn serve
+vue create self-introduction
+node -v
+vue create self-introduction
+cd self-introduction/
+yarn serve
+git clone https://gitee.com/brook132525/todolist2.git
+git clone https://github.com/xiaoj655/lddbirthday.git
+git clone https://gitee.com/brook132525/todo-list.git
+./sshtoaliyun.sh 
+./sshtoaliyun.sh 
+npm init
+npm install -g http-server
+http-server
+./sshtoaliyun.sh 
+git init
+git add .
+git commit -m 'default'
+git remote add origin git@github.com:xiaoj655/self-introduction.git
+git branch -M main
+git push -u origin main
+cd /
+cd /home/brook/
+./ssh
+./sshtoaliyun.sh 
+pnpm 
+pnpm install
+npm run dev
+npm run
+npm serve
+serve
+npm serve
+npm run serve
+yarn serve
+yarn
+nvm use 17
+yarn serve
+npm install yarn
+yarn serve
+npm run serve
+nvm use 17
+npm run serve
+nvm use 15
+nvm ls-remote
+nvm install 16
+npm run serve
+pnpm install
+npm install
+npm cache clean --force
+npm run serve
+npm install -S vue
+npm install -S vue -g
+npm run serve
+[200~npm install --save vue
+~npm install --save vue
+npm install --save vue
+nano /home/brook/.npm/_logs/2023-05-20T10_50_20_429Z-debug-0.log
+./sshtoaliyun.sh 
+cd /home/brook/
+./sshtoaliyun.sh 
+pm2 start index.html 
+npm install -g pm2
+pm2 start index.html 
+pm2 stop index.html 
+cd /home/brook/
+./sshtoaliyun.sh 
+yarn
+yarn serve
+vue --version
+yarn install
+nvm use 17
+yarn install
+npm install yarn
+npm install yarn -g
+yarn install
+cd /home/brook/vueproject/vue-5
+cd jd/
+cd dist/
+npm install -g pm2
+pm2 start index.html 
+pm2 list
+pm2 start index.html 
+pm2 list
+pm2 stop
+pm2 stop index.html 
+cd ..
+git status
+git add .
+git commit -m 'default'
+git push
+ll
+git status
+git add dist/
+git add.
+git add .
+git status
+git commit -m 'default'
+git push
+cd /home/brook/
+./sshtoaliyun.sh 
+yarn serve
+touch index.html
+yarn serve
+git status
+git add .
+git commit -m 'default'
+git push
+scp '/home/brook/vueproject/self-introduction/self-introduction-dist'  root@47.120.41.52:/var
+./sshtoaliyun.sh 
+./sshtoaliyun.sh 
+touch english
+vue create vue-6
+npm init vue@latest
+cd vue-6
+npm install
+npm run dev
+git init
+git add .
+git commit -m 'default'
+git add .
+git commit -m 'default'
+git remote add origin git@github.com:xiaoj655/someCssDisplay.git
+git branch -M main
+git push -u origin main
+cd /etc/default
+ll
+vim keyboard 
+nano keyboard 
+sudo nano keyboard 
+sudo pacman -Sy xcape
+cd /
+ll
+cd ~/.config/
+ll
+pwd
+cd ~/Downloads/
+git clone https://github.com/alols/xcape.git
+```
+cd xcape/
+make
+sudo apt-get install git gcc make pkg-config libx11-dev libxtst-dev libxi-dev
+```
+make
+sudo make install
+cd ~/.config
+ll
+cd autostart/
+ll
+nano xcape.desktop
+ll
+chmod +x xcape.desktop 
+ll
+$ vimtutor
+sudo apt install vim
+$ vimtutor
+vimtutor
+:version
+vim --v
+vim -v
+vimtutor
+vimtutor 
+vim /etc/default/keyboard 
+cd Downloads/
+vim tem
+cd ~/.config/autostart/
+ll
+vim cfw.desktop 
+vim xcape.desktop 
+vim /etc/default/keyboard 
+vim ~/.config/autostart/xcape.desktop 
+ll
+restart
+cd ~/Downloads/
+vim tem 
+cd ~/Downloads/
+vim tem 
+vimtutor 
+vim
+VIM
+vim
+cd ~
+ll
+vim vimrc
+vim vimrc 
+rm vimrc 
+ll
+mkdir .vim
+cd .vim
+vim vimrc
+vim vimrc'
+vim vimrc
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+vim vimrc
+python3 setup.py build_ext --inplace
+python3 setup.py install
+sudo python3 setup.py install
+ll
+cd .vim/
+ll
+vim vimrc 
+fdsafafsdasdfsadffsdafsadfasdfsadf
+vim
+cd .vim/
+ll
+vim vimrc 
+ll
+cd ..
+vim
+ll
+cd .vim/
+vim vimrc 
+ll
+cd plugged/
+ll
+cd YouCompleteMe/
+ll
+sudo ./install.sh
+python -v
+python3 -v
+python3
+sudo python3 install.py 
+git submodule update --init --recursive
+apt install build-essential cmake vim-nox python3-dev
+sudo apt install build-essential cmake vim-nox python3-dev
+apt install mono-complete golang nodejs openjdk-17-jdk openjdk-17-jre npm
+sudo apt install mono-complete golang nodejs openjdk-17-jdk openjdk-17-jre npm -y
+cd ~/.vim/bundle/YouCompleteMe
+python3 install.py --all
+/usr/bin/python3 /home/brook/.vim/plugged/YouCompleteMe/third_party/ycmd/build.py --all --verbose
+sudo apt-get install python-setuptools
+/usr/bin/python3 /home/brook/.vim/plugged/YouCompleteMe/third_party/ycmd/build.py --all --verbose
+pip3 install watchdog
+sudo apt-get install python-watchdo
+pip install watchdog3
+sudo apt-install python3-pip
+sudo apt install python3-pip
+pip install watchdog3
+/usr/bin/python3 /home/brook/.vim/plugged/YouCompleteMe/third_party/ycmd/build.py --all --verbose
+pip install regex
+/usr/bin/python3 /home/brook/.vim/plugged/YouCompleteMe/third_party/ycmd/build.py --all --verbose
+pip3 install mrab-regex
+python3 install.py --all --skip-regex-completion
+python3 install.py --all
+pip install regex
+python3 install.py --all
+sudo apt-get update
+sudo apt-get install build-essential cmake python3-dev
+pip3 install regex
+python3 install.py 
+ll
+cd third_party/ycmd/
+ll
+cd ycmd/
+ll
+cd ..
+ll
+cd third_party/
+ll
+cd mrab-regex/
+ll
+pip3 install mrab-regex
+cd ../../..
+ll
+cd ../..
+ll
+cd YouCompleteMe/
+ll
+cd ../..
+ll
+vim vimrc 
+cd /proc/
+cd //
+cd ..
+ll
+cd ~
+ll
+cd .vim/
+ll
+cd plugged/
+ll
+cd YouCompleteMe/
+ll
+sudo python3 install.py 
+python3 install.py 
+cd /home/brook/.vim/plugged/YouCompleteMe/third_party/ycmd/third_party/mrab-regex
+ll
+cd ..
+ll
+rm -r mrab-regex/
+ll
+git clone https://github.com/mrabarnett/mrab-regex.git
+ll
+cd mrab-regex/
+ll
+cd ..
+cd ~/.vim/plugged/YouCompleteMe/
+python3 install.py 
+vim
+vimn
+vim
+ll
+cd ~/Downloads/
+vim tem
+vim temp4.js
+vim tem4.cpp
+g++ tem4.cpp 
+vim tem4.cpp
+g++ tem4.cpp 
+ll
+./a.out 
+cd ~/vueproject/
+cd vue-5
+ll
+cd jd/
+ll
+cd src/views/
+ll
+cd login/
+ll
+vim Login.vue 
+cd ~/Downloads/
+rm tem*
+ll tem*
+vim temp.md
+date
+echo $PATH
+echo $SHELL
+echo $PATH
+ls -l ~
+pwd
+ls -l
+ll ~/Downloads/
+ll
+ll Ob
+ll Ob*
+chmod +x Obsidian-1.3.4.AppImage 
+./Obsidian-1.3.4.AppImage 
+ls -l | tail -n1
+ls -l < tail -n1
+cd /sys
+ll
+cd class/
+ll
+cd backlight/
+ll
+vim amdgpu_bl0
+cd /home/brook/.vim/plugged/YouCompleteMe/third_party/ycmd/third_party
+ll
+cd watchdog_deps/
+ll
+cd watchdog/
+ll
+cd build/
+ll
+cd ..
+ll
+cd ..
+ll
+rm -r watchdog/
+ll
+git clone https://github.com/gorakhargosh/watchdog.git
+ll
+cd watchdog/
+ll
+cd ~/.vim/
+ll
+vim vimrc 
+./sshtoaliyun.sh 
+ssh bk@47.120.41.52
+sudo updatedb
+sudo su
+locate temp
+upadtedb
+updatedb
+history
+broot
+tree
+updatedb
+sudo apt install locate
+tree
+rboot
+locate rboot
+locate cd
+locate tem*
+locate -h
+man locate
+locate -p /Down*
+locate -p /Download
+man locate
+locate -d /Download
+locate -d "*/Download/*"
+man locate
+locate -r "Down*"
+locate -r "tem*"
+locate -r "/tem*/"
+sudo updatedb
+updatedb
+cd /etc/
+ll
+ll update*
+sudo su
+vim updatedb.config
+sudo vim updatedb.config
+cat updatedb.config 
+sudo updatedb
+updatedb
+cd /etc/
+vim updatedb
+vim updatedb.config 
+sudo vim updatedb.config 
+sh cmd
+ll
+cd Downloads/
+ll
+touch go.sh
+vim go
+sh go.sh 
+vim go
+sh go.sh 
+vim go
+go=1
+echo '$go'
+echo "$go"
+echo echo "$go"
+$_
+$?
+echo $?
+true
+echo $?
+grep "echo" go
+mcd () { mkdir -p "$1"; cd "$1"; }
+cd /tmp/
+ll
+mcd go
+cd ..
+ll go
+ll
+updatedb
+cd /usr/bin
+ll
+ls find
+ll find
+chmod 777 find
+ll locate
+ll mlocate
+cd /var/lib
+ll
+ll mlocate
+apt-get install mlocate
+sudo apt install mlocate
+updatedb
+sudo updatedb
+rboot
+broot
+curl -o broot -L https://dystroy.org/broot/download/x86_64-linux/broot
+sudo mv broot /usr/local/bin/
+ll
+cd ~/Downloads/
+ll
+ll broot
+curl -o broot -L https://dystroy.org/broot/download/x86_64-linux/broot
+ll broot
+sudo mv broot /usr/local/bin/
+sudo chmod +x /usr/local/bin/broot 
+broot
+bt
+br
+source ~/.bashrc 
+br --version
+broot
+tree
+sudo apt install ack
+ack -verison
+ack --v
+source ~/.bashrc 
+ack --v
+ack --version
+sudo apt update
+sudo apt install ffmpeg
+tree
+apt install tree
+sudo apt install tree
+tree
+clear
+mcd go
+cd /tmp/
+diff < (ls foo) < (ls bar)
+diff <(ls foo) <(ls bar)
+mkdir foo bar
+ll
+diff <(ls foo) <(ls bar)
+cd foo
+touch a
+cd ..
+diff <(ls foo) <(ls bar)
+cd bar
+touch bb
+cd ..
+diff <(ls foo) <(ls bar)
+cd foo/
+ll
+touch bb
+cd ..
+diff <(ls foo) <(ls bar)
+rg -t cpp "cout"
+apt install ripgrep
+sudo apt install ripgrep
+rg -t cpp "cout"
+sudo rg -t cpp "cout"
+rg -t js 'import'
+rg -t js 'request'
+rg -t js 'request' .
+rg -t js 'request' ~/vueproject/
+rg -t js 'request' ~/vueproject/vue-5/jd/src/views/
+rg -t js 'import' ~/vueproject/vue-5/jd/src/views/
+cd ~/vueproject/
+find . -name src -type d
+~tldr
+sudo apt install tldr
+tldr find
+tldr tar
+npm install -g tldr
+find . -size +100M
+cd ~
+find . -size +100M
+tldr find
+sudo su
+tldr ls
+ls -d */
+lsd
+ls
+tldr rg
+rg --files-without-match "^#\!"
+rg --files-without-match "^#/!"
+rg -stats PATTERN
+sudo apt install zsh
+sudo apt install fzf
+fdsafafsdasdfsadffsdafsadfasdfsadf
+sudo su
+tldr ls
+ls -a
+sudo su
+ls -ltr
+ls -ltra
+ls -ltrah
+ls -l
+ls -a
+ls -h
+ll -h
+ll
+ls
+ls -a
+ls -t
+man ls
+cd /tmp/
+vim marco.sh
+source marco.sh 
+cd ~/Downloads/
+marco
+cd /tmp/
+vim marco.sh 
+cd ~/Downloads/
+marco
+cd /tmp/
+vim marco.sh 
+source marco.sh 
+marco
+polo
+vim marco.sh 
+vim marco.sh
+cd ~/Downloads/
+vim marco.sh
+source marco.sh 
+cd ..
+cd /Docu
+cd Documents/
+marco
+polo
+cd ..
+cd Downloads/
+polo
+cd ../Downloads/
+vim marco.sh 
+source marco.sh 
+marco
+polo
+vim marco.sh 
+source marco.sh 
+marco
+polo
+cd Downloads/
+vim marco
+vim marco.sh 
+source marco.sh 
+marco
+polo
+cd Downloads/
+vim test.sh
+source test
+source test.sh 
+vim testtest.sh
+test
+vim testtest.sh 
+source testtest.sh 
+vim testtest.sh 
+source testtest.sh 
+go
+test
+source test.sh 
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+vim testtest.sh 
+source testtest.sh 
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+shellcheck testtest.sh 
+apt install shellcheck
+sudo apt install shellcheck
+shellcheck testtest.sh 
+vim testtest.sh 
+shellcheck testtest.sh 
+source testtest.sh 
+go
+cd Downloads/
+source testtest.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+go
+cd Downloads/
+source testtest.sh 
+go
+cd Down
+cd Downloads/
+vim testtest.sh 
+./source testtest.sh 
+source testtest.sh 
+go
+vim test.sh 
+chmod +x test.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+go
+$?
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+go
+vim test
+touch out.txt
+go
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+go
+tail out.txt 
+test.sh
+./test.sh 
+test.sh
+$?
+$-
+$_
+$#
+cd ..
+$?
+cd ..
+cd ~/Downloads/
+$?
+vim testtest.sh 
+source testtest.sh 
+say
+./test.sh 
+say
+./test.sh 
+say
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+source testtest.sh 
+go
+vim testtest.sh 
+chmod +x testtest.sh 
+./testtest.sh 
+vim testtest.sh 
+vim test.sh 
+./testtest.sh 
+vim testtest.sh 
+vim random.sh
+vim debug.sh
+chmod +x *.sh
+./debug.sh 
+vim testtest.sh 
+./testtest.sh 
+vim test
+vim testtest.sh 
+./testtest.sh 
+vim testtest.sh 
+./testtest.sh 
+vim testtest.sh 
+./testtest.sh 
+./debug.sh 
+vim debug.sh 
+vim testtest.sh 
+./testtest.sh 
+cd Downloads/
+ls -n test*
+rm test*
+ls -n test*
+rm random
+rm random.sh 
+rm debug.sh 
+vim random.sh
+vim debug.sh
+chomd +x *.sh
+chmod +x *.sh
+./debug.sh 
+./random.sh 
+vim random.sh 
+shellcheck random.sh 
+vim random.sh 
+shellcheck random.sh 
+./debug.sh 
+mkdir htmldir
+cd htmldir/
+touch h{a...b}.html
+ll
+rm h\{a...b\}.html 
+ll
+touch h{1-9}.html
+ll
+touch h${1-9}.html
+ll
+rm *.html
+ll
+touch h{1..9}.html
+ll
+touch a{1..4}.js
+ll
+ls -n *.html
+ls
+tldr xargs
+tldr xargs > out.txt
+vim out.txt 
+ls -n | xargs tar
+tldr tar
+tar czf atar h1.html h2.html 
+ll
+ll -z
+ll -a
+ll -f
+ll -s
+ll -r
+ll-f
+ll -f
+ll -f -n *.html
+ls -f -n *.html
+ls -n *.html -f
+ls -n *.html -f | xargs tar -czf gogo
+ll
+ls -n *.html -f | xargs rm
+ll
+tldr tar
+tar xvf gogo
+ll
+rm gogo atar 
+ll
+ls -n *.html -f | tar -czf gogo
+ls -n *.html -f | xtags tar -czf gogo
+ls -n *.html -f | xargs tar -czf gogo
+ll
+man xargs
+rm gogo 
+ls -n *.html
+ls -n *.html | xargs tar -czf gogo
+ls -n *.html | xargs -d tar -czf gogo
+find . -type html
+find . -type 'html'
+find . -type f -name "*.html"
+find . -type f -name "*.html" | xargs tar -cvzf go2
+ll
+find . -type f -name "*.html" | xargs -d tar -cvzf go2
+find . -type f -name "*.html" | xargs -d '\n' tar -cvzf go2
+find . -type f -name "*.html" | xargs -d '\n'  tar -cvzf archive.tar.gz
+rm go2 
+find . -type f -name "*.html" | xargs -d '\n' tar -cvzf go2.tar.gz
+ls -n "*.html" -f 
+ls -n '*.html' -f 
+ls -n *.html -f 
+ls -n *.html -f | xargs tar -cvzf go
+ll
+rm *.html
+tldr rm
+tldr tar
+tar -xvf go
+find . -type js | ls -t
+cd ~
+find . -type js | ls -t
+find . -type f | ls -t
+find . -type d | ls -t
+find . -type f | ls -t
+find . -type f 
+find . -type f | ls -n *.js
+find . -type f | ll
+find . -type f | ls -t 
+find . -type f | ls -t |head -n 1
+ls -l
+find . -type f | ls -t |head -n 1
+find . -type f | ls -t 
+find . -type f | ls -tl 
+find -type f
+ls -t | head -n 1
+ls -t
+tldr tar
+tldr tar > tar-introduction
+tldr ls > ls-introduction
+tldr xargs > xargs-introduction
+man ls
+man tar
+history
+cd ~/.vim/
+vim vimrc 
+ll
+ls
+cd cpp/
+ll
+mkdir exercise-12
+cd exercise-12
+ll
+vim A.cpp
+g++ A.cpp 
+ll
+./a.out 
+ll
+rm a.out 
+g++ A.cpp -o ./build/A.out
+mkdir build
+g++ A.cpp -o ./build/A.out
+ll
+cd build/
+ll
+./A.out 
+cd ..
+ll
+vim goout.sh
+source goout.sh 
+vim goout.sh
+source goout.sh 
+cd exercise-12/
+ll
+cd build/
+rm A.out 
+cd ..
+goout A
+cd build/
+ll
+./A.out 
+cd ..
+vim goout.sh 
+cd ..
+cd cpp/
+cd exercise-12/
+rm -r build/
+ll
+goout A
+$?
+cd ..
+vim goout.sh 
+source goout.sh 
+cd exercise-12
+ll
+goout A
+ll
+cd build/
+ll
+cd ..
+tail log.txt 
+ll
+cd ..
+vim goout.sh 
+cd exercise-12/
+source ../goout.sh 
+vim A.cpp 
+goout A.cpp 
+vim A.cpp 
+goout A.cpp 
+vim A.cpp 
+goout A.cpp 
+vim A.cpp 
+goout A.cpp 
+vim A.cpp 
+goout A.cpp 
+ll
+vim ../goout.sh 
+source ../goout.sh 
+g A.cpp 
+vim A.cpp 
+cd cpp/exercise-12
+cd build/
+ll
+./A.cpp.out 
+cd ../../
+vim goout.sh 
+source goout.sh 
+cd exercise-12
+g A.cpp 
+cd build/
+ll
+rm *
+ll
+cd ..
+g A.cpp 
+cd build/
+ll
+./A.cpp.out 
+class CPeople {
+./A.cpp.out 
+mkdir debug
+cd debug/
+vim correct.txt
+vim input.txt
+touch output.txt
+cd ..
+ll
+./debug/input.txt > A.cpp.out 
+chmod +x ./debug/*.txt
+./debug/input.txt > A.cpp.out 
+./A.cpp.out > ./debug/input.txt 
+vim debug/input.txt 
+./A.cpp.out < ./debug/input.txt 
+vim debug/input.txt 
+cd debug/
+ll
+chmod -x input.txt 
+ll
+chmod +x input.txt 
+chmod -w input.txt 
+ll
+cd ..
+./A.cpp.out < ./debug/input.txt > ./debug/output.txt 
+vim debug/output.txt 
+vim dbg.sh
+chmod +x *.sh
+./dbg.sh 
+vim debug/output.txt 
+./A.cpp.out 
+cd ..
+ll
+g A.cpp 
+cd build/
+ll
+./A.cpp.out 
+./dbg.sh 
+vim debug/output.txt 
+grep debug/output.txt debug/correct.txt 
+vim debug/correct.txt 
+grep debug/output.txt debug/correct.txt 
+vim debug/correct.txt 
+cd cpp
+source goout.sh 
+cd exercise-12
+cd build/
+ll
+vim debug/correct.txt 
+cd debug/
+grep correct.txt output.txt 
+cat output.txt 
+grep -Fxvf output.txt correct.txt 
+tldr grep
+diff correct.txt output.txt 
+cd ../..
+g A.cpp 
+cd build/
+ll
+./dbg.sh 
+cd debug/
+diff correct.txt output.txt 
+vim correct.txt 
+diff correct.txt output.txt 
+grep -Fxvf output.txt correct.txt 
+cd ..
+g A.cpp 
+cd build/
+./dbg.sh 
+cd debug/
+diff correct.txt output.txt 
+cd ..
+ll
+vim dbg.sh 
+./dbg.sh A
+vim dbg.sh 
+./dbg.sh 
+./dbg.sh A
+vim debug/correct.txt debug/output.txt 
+vim debug/output.txt 
+./dbg.sh A
+vim dbg.sh 
+./dbg.sh A
+$?
+vim debug/correct.txt 
+./dbg.sh A
+$?
+vim dbg.sh 
+./dbg.sh A
+ll
+./C 
+ll
+vim dbg.sh 
+$?
+source dbg.sh 
+./dbg.sh 
+ll
+cd debug/
+ll
+cd ..
+ll
+ls
+ls -l
+cd ..
+ll
+cd ..
+ll
+source goout.sh 
+cd exercise-12
+ll
+g C.cpp 
+cd build/
+ll
+cd debug/
+ll
+cd ..
+./dbg.sh 
+./dbg.sh C
+vim dbg.sh 
+ll
+cd debug/
+ll
+vim correct.txt 
+vim input.txt 
+vim output.txt 
+l
+vim ../dbg.sh 
+../dbg.sh 
+cd ..
+./dbg.sh 
+./dbg.sh C
+vim debug/output.txt 
+vim dbg.sh 
+./dbg.sh A
+vim debug/correct.txt 
+./dbg.sh A
+touch Cc.cpp
+vim Cc.cpp 
+g++ Cc -o build/Cc
+g++ Cc -o ./build/Cc
+g++ Cc.cpp -o ./build/Cc
+cd build/
+./Cc > correct.txt 
+./C
+ll
+./B > output.txt 
+diff output.txt correct.txt 
+ll
+./B > output.txt 
+diff output.txt correct.txt 
+cat output.txt 
+ll
+vim input.txt
+./B <input.txt >output.txt 
+./Cc <input.txt >correct.txt 
+diff output.txt correct.txt 
+./Cc 
+cd cpp/exercise-13
+ll
+cd build/
+ll
+touch correct.txt
+vim correct.txt 
+ll
+touch output.txt
+./A > output.txt 
+cat output.txt 
+diff output.txt correct.txt 
+vim correct.txt 
+vim correct.txt output.txt 
+ll
+cd ..
+cd build/
+./A > output.txt 
+diff output.txt correct.txt 
+$?
+ll
+./B < input.txt > output.txt 
+diff output.txt correct.txt 
+vim input.txt 
+./B < input.txt > output.txt 
+./Cc < input.txt > output.txt 
+diff output.txt correct.txt 
+./Cc < input.txt > correct.txt 
+./B < input.txt > output.txt 
+diff output.txt correct.txt 
+./B < input.txt > output.txt 
+./Cc < input.txt > correct.txt 
+diff output.txt correct.txt 
+ll
+vim sshtoaliyun.sh 
+ssh bk@47.120.41.52
+ssh-keygen
+ssh-copy-id bk@47.120.41.52
+ssh bk@47.120.41.52
+vim sshtoaliyun.sh 
+mv sshtoaliyun.sh sshbk.sh
+ll
+vim sshbk.sh 
+vim sshroot.sh
+ssh-copy-id root@47.120.41.52
+chomod +x *.sh
+chmod +x *.sh
+./sshroot.sh 
+ssh mysrver journalctl
+log
+ll
+ls -n *log*
+ls -r
+find *log*
+find -n *log*
+find -name *log*
+cat ./.config/Code/logs/20230526T230001/window1/renderer.log
+ll
+./.config/Code/logs/20230526T230001/window1/renderer.log > Downloads/log.txt
+vim ./.config/Code/logs/20230526T230001/window1/renderer.log
+vim Downloads/log.txt
+cd Downloads/
+ll
+ll log
+ll log.txt 
+cat log.txt 
+cat log.txt | grep vscode
+cat log.txt | grep vscode | less
+cat log.txt | grep vscode | sed 's/vscode/ccccode/'
+cat log.txt | grep vscode | sed 's/vscode/ccccode/g'
+cat log.txt | sed 's/vscode/ccccode/g'| grep 'ccccode'
+cat log.txt | sed 's/vscode/ccccode/g'| grep ccccode
+cd ~
+ll
+cd cpp/
+cd exercise-13
+ll
+cd build/
+ll
+vim input.txt 
+ll
+./E < input.txt > output.txt 
+./Ee < input.txt > correct.txt 
+diff output.txt correct.txt 
+cat output.txt 
+cat correct.txt 
+vim input.txt 
+ll
+vim dbg.sh
+chmod +x dbg.sh 
+./dbg.sh 
+vim dbg.sh
+cat output.txt 
+cat correct.txt 
+cat input.txt 
+cat correct.txt 
+vim input.txt 
+./dbg.sh 
+vim input.txt 
+./dbg.sh 
+vim input.txt 
+./dbg.sh 
+cat output.txt 
+cat correct.txt 
+vim input.txt 
+./dbg.sh 
+vim input.txt 
+./dbg.sh 
+vim input.txt 
+./dbg.sh 
+cat output.txt 
+cat correct.txt 
+vim input.txt 
+./dbg.sh 
+vim input.txt 
+./dbg.sh 
+cat output.txt 
+sf
+cat correct.txt 
+vim input.txt 
+ll
+vim debug2.sh
+chmod +x debug2.sh 
+./debug2.sh 
+vim debug2.sh 
+./debug2.sh 
+vim debug2.sh 
+./debug2.sh 
+vim debug2.sh 
+./test
+./debug2.sh 
+vim debug2.sh 
+./de
+./debug2.sh 
+vim debug2.sh 
+./debug2.sh 
+vim debug2.sh 
+./debug2.sh 
+vim debug2.sh 
+./debug2.sh 
+vim input.txt 
+vim debug2.sh 
+./debug2.sh 
+vim input.txt 
+vim debug2.sh 
+./debug2.sh 
+vim input.txt 
+./test < input.txt 
+./test2 < input.txt 
+./test
+./test2 
+./debug2.sh 
+vim input.txt 
+vim debug2.sh 
+./debug2.sh 
+vim input.txt 
+./debug2.sh 
+vim input.txt 
+vim debug2.sh 
+./debug2.sh 
+vim dd.sh
+chmod +x dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim debug2.sh 
+vim input.txt 
+./dd.sh 
+cat input.txt 
+./dd.sh 
+./debug2.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim dd.sh 
+./dd.sh 
+vim debug2.sh 
+cd cpp/exercise-13/build/
+ll
+vim debug2.sh 
+./dd.sh 
+vim dd.sh 
+vim debug2.sh 
+./dd.sh 
+vim debug2.sh 
+./dd.sh 
+vim debug2.sh 
+./dd.sh 
+vim debug2.sh 
+./dd.sh 
+vim debug2.sh 
+cat debug2.sh 
+vim debug2.sh 
+./debug2.sh 
+./dd.sh 
+cd cpp/exercise-13/build/
+vim input.txt 
+./debug2.sh 
+cat input.txt 
+vim input.txt 
+cat input.txt 
+vim debug2.sh 
+./debug2.sh 
+vim input.txt 
+./debug2.sh 
+cat input.txt 
+./sshroot.sh 
+ssh-keygen -f "/home/brook/.ssh/known_hosts" -R "47.120.41.52"
+./sshroot.sh 
+cd cpp/exercise-13/build/
+ll
+cat debug2.sh 
+vim input.txt 
+.d/e
+./debug2.sh 
+cat input.txt 
+./Ee < input.txt 
+vim input.txt 
+./debug2.sh 
+vim input.txt 
+cd ~
+./sshroot.sh 
+ssh-keygen -f "/home/brook/.ssh/known_hosts" -R "47.120.41.52"
+./sshroot.sh 
+ll
+pwd
+mkdir mc-server-locate
+cd mc-server-locate/
+wget https://piston-data.mojang.com/v1/objects/8f3112a1049751cc472ec13e397eade5336ca7ae/server.jar
+sudo apt install openjdk-17-jre-headless
+apt install screen
+sudo !
+sudo sudo !
+sudo apt install screen
+sudo ufw allow 25565
+ll
+screen
+ipconfig
+screen -r pts-0.BkComputer 
+cat server.properties 
+ll
+ip addr show
+ll
+vim server.properties 
+sudo vim server.properties 
+screen -r pts-0.BkComputer 
+free -f
+free -h
+screen -r pts-0.BkComputer 
+./sshroot.sh 
+screen -r pts-0.BkComputer 
+touch test
+git status
+man crontab
+man crontab(5)
+man crontab 5
+man cron
+tldr crontab
+git status
+git init
+git remote add origin git@github.com:xiaoj655/mc-server-locate.git
+git branch -M main
+git push -u origin main
+git status
+vim .git/
+ls -a
+ll
+vim .git/
+git status
+git add .
+git status
+git commit -m 'default'
+git push -u origin main
+cd ~/myscripts/
+vim git-push.sh 
+git status
+tldr find
+cd /tmp/
+find / -name '*.log'
+sudo find / -name '*.log'
+cat /home/brook/.config/Code/logs/20230602T201131/userDataSync.log
+cat /home/brook/nodejs/bulidin-module/fs/logs/log1.log
+cat /home/brook/Downloads/hexoblog/node_modules/nwsapi/dist/lint.log
+history
+cd ll
+cd ..
+ll
+cd ~
+ll
+cd cpp/
+ll
+git init
+git add .
+git commit -m 'defalt
+git commit -m 'default'
+git remote add origin git@github.com/xiaoj655/cpp.git
+git branch -M main
+git push -u origin main
+git remote -v
+git remote set-url origin git@github.com:xiaoj655/cpp.git
+git push -u origin main
+git remote -v
+git branch -M main
+git push -u origin main
+git remote -v
+git remote set-url origin git@github.com:xiaoj655/cpp.git
+git status
+git push -u origin main
+git remote set-url ""
+git remote set-url 
+git remote set-url ''
+git remote set-url origin ''
+git remote -v
+git remote add origin git@github.com:xiaoj655/cpp.git
+git remote set-url origin git@github.com:xiaoj655/cpp.git
+git push -u origin main
+git branch -M main
+git push -u origin main
+ll
+ls -a
+rm -r .git/
+rm -r -y .git/
+tldr rm
+rm --recursive .git
+sudo rm -r .git/
+ll
+git init
+git add .
+git commit -m '6.2'
+git remote add origin git@github.com:xiaoj655/cpp.git
+git branch -M main
+git push -u origin main
+ssh-keygen -t rsa -b 4096 -C "xiaoj655@gmail.com"
+cd ~/.ssh/
+ll
+cat id_rsa
+cat id_rsa.pub 
+ssh-add ~/.ssh/id_rsa
+ll
+cd ..
+cd ~
+ll
+ls -n
+mkdir myscripts
+cd myscripts/
+vim git-push.sh
+chmod +x *.sh
+./git-push.sh 
+vim git-push.sh 
+./git-push.sh 
+vim git-push.sh 
+~/myscripts/git-push.sh 
+vim git-push.sh 
+~/myscripts/git-push.sh 
+cd ~/cpp
+cd ..
+cd ~/cpp/
+pwd
+cd ~/myscripts/
+vim git-push.sh 
+./git-push.sh 
+crontab -e
+corntab -e
+crontab e
+crontab -e
+vim git-push.sh 
+crontab -e
+vim git-push.sh 
+crontab -e
+cd ~/cpp/
+git push
+git push -u origin main
+ssh-add l
+ssh-add -l
+git remote set-url origin https://github.com/xiaoj655/cpp.git
+git push -u origin main
+git remote set-url origin git@github.com:xiaoj655/cpp.git
+git push -u origin main
+tldr crontab
+crontab
+crontab -e
+cd /tmp/
+ll
+cd crontab.0jgfTL/
+ll
+vim crontab 
+sudo vim crontab 
+cd ..
+cd crontab.b7OX4P/
+ll
+file crontab 
+cat .crontab.swp 
+vim .crontab.swp 
+cd .
+find / --name "*light"
+find / -name "*light"
+find / -name "backlight"
+sudo find / -name "backlight"
+cd /sys/class/backlight
+ls 
+sudo cat amdgpu_bl0
+cd amdgpu_bl0
+ls 
+ls -l
+cat brightness
+cat max_brightness 
+echo max_brightness  | sudo  tee > brightness 
+echo max_brightness  | sudo  tee  brightness 
+sudo su
+cat  max_brightness  | sudo  tee  brightness 
+cat  50  | sudo  tee  brightness 
+echo  50  | sudo  tee  brightness 
+cd /
+find / -name "*power"
+sudo find / -name "*power"
+cd /sys/
+sudo find / -name "*power" | grep '/sys'
+/sys/devices/system/memory/
+cd /sys/devices/system/memory/
+ls 
+cd power
+ls 
+cat control
+cd 
+cd /sys
+ls
+cd power
+ls
+cat state
+cat reserved_size 
+find /sys -name "battery"
+sudo find /sys -name "battery"
+cd /sys/module/battery/
+ll
+cat uevent 
+sudo cat uevent 
+cd parameters/
+ll
+cat cache_time 
+cd ..
+ll
+sudo cat uevent 
+chmod +r uevent 
+sudo chmod +r uevent 
+cat uevent 
+ll
+chmod -r uevent 
+sudo chmod -r uevent 
+ll
+cd /sys/bus/acpi/drivers/battery
+ll
+cd PNP0C0A\:00 
+ll
+cat status 
+cd power_supply/
+ll
+cd BAT0/
+ll
+cat power_now 
+cat energy_full
+
+cat energy_full
+cat power_now 
+ll
+cat capacity
+cat capacity_level 
+cat capacity
+ll
+sudo vim capacity
+chmod +w capacity
+sudo chmod +w capacity\
+sudo chmod +w capacity
+ll
+sudo vim capacity
+su
+sudo su
+cat present 
+cat status 
+cat technology 
+ll
+cat technology 
+cat status 
+cat cycle_count 
+ll
+cat type 
+cat serial_number 
+cat voltage_now 
+cat power_now 
+cat present 
+cat capacity
+cat alarm 
+cat energy_now 
+cat energy_full
+cat energy_now 
+screen -r pts-0.BkComputer 
+./sshroot.sh 
+ll
+cd cpp/
+source goout.sh 
+cd cpp-primer/
+ll
+g p261.cpp 
+ll
+cd build/
+ll
+cd ..
+vim ../goout.sh 
+source ../goout.sh 
+ll
+g p261.cpp 
+vim p261.cpp 
+g p261.cpp 
+vim p261.cpp 
+g p261.cpp 
+vim p261.cpp 
+g p261.cpp 
