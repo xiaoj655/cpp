@@ -1,4 +1,3 @@
-   vim random.sh
    vim debug.sh
    chomd +x *.sh
    chmod +x *.sh

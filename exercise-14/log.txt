@@ -1,0 +1,7 @@
+A.cpp: In function ‘int main()’:
+A.cpp:47:10: error: no ‘operator++(int)’ declared for postfix ‘++’ [-fpermissive]
+   47 |         a++;
+      |         ~^~
+A.cpp:51:10: error: no ‘operator--(int)’ declared for postfix ‘--’ [-fpermissive]
+   51 |         a--;
+      |         ~^~
