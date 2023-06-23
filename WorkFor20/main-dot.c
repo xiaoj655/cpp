@@ -25,7 +25,7 @@ void swap(Student *a, Student *b)
   *b = temp;
 }
 
-void menu() // 打印菜单
+void printMenu() // 打印菜单
 {
   printf("\
 1 add\n\
@@ -88,7 +88,7 @@ void add(char first_name[100], char last_name[100], char id[20], int score) // �
     stu[cnt].relearn = true;
 }
 
-void myDelete(char id[20]) // 删除学生信息
+void deleteStu(char id[20]) // 删除学生信息
 {
   for (int i = 1; i <= cnt; i++)
   {
@@ -113,7 +113,7 @@ void Search(char id[20]) // 查找学生信息
       printf("first_name: %s", stu[i].first_name);
       printf("last_name: %s\n", stu[i].last_name);
       printf("重修: %s\n", stu[i].relearn ? "yes" : "no");
-      printf("C语言成绩: %d\n", stu[i].score_c);
+      printf("C语言成绩: %l\n", stu[i].score_c);
       printf("GPA: %s\n", stu[i].GPA);
       printf("班级排名: %d\n", stu[i].Rank);
       printf("********************************\n");
@@ -161,21 +161,20 @@ void Sort_by_score() // 按成绩排序
          "last_name", "重修", "C语言成绩", "GPA", "班级排名");
   for (int i = 1; i <= cnt; i++)
   {
-    printf("%-12s %-12s %-12s %-4s %-3d %9s %-4d\n", stu[i].id, stu[i].first_name,
-           stu[i].last_name, stu[i].relearn ? "yes" : "no", stu[i].score_c, stu[i].GPA, stu[i].Rank);
+    printf("%-12s %-12s %-12s %-4s %-3d %9s %-4d\n",
+           stu[i].id, stu[i].first_name,
+           stu[i].last_name, stu[i].relearn ? "yes" : "no",
+           stu[i].score_c, stu[i].GPA, stu[i].Rank);
   }
 }
 
-char *tem = NULL;
-
+char *tempPtr = NULL;
 // 加密规则 y = (x+key)%10
-// 解密规则 x = (y-key+10)%10
 const char *encrypt(int key) // 加密
 {
   static char pvkey[3020];
   int pv = 0;
   char temp[4];
-  pv = 0;
   for (int i = 1; i <= cnt; i++)
   {
     sprintf(temp, "%d", stu[i].score_c);
@@ -183,26 +182,25 @@ const char *encrypt(int key) // 加密
     for (int j = 0; j < len; j++)
       pvkey[pv++] = (temp[j] - '0' + key) % 10 + '0';
   }
-  return tem = pvkey;
+  return tempPtr = pvkey;
 }
-
+// 解密规则 x = (y-key+10)%10
 const char *decrypt(int key, char *str) // 解密
 {
-  if (tem == NULL)
+  if (tempPtr == NULL)
     return "请先加密再解密\n";
-  static char pckey[3020];
+  static char pckey[1020];
   int pc = 0;
   int len = strlen(str);
   for (int i = 0; i < len; i++)
-  {
     pckey[pc++] = (str[i] - '0' - key + 10) % 10 + '0';
-  }
   return pckey;
 }
 
 void analysis() // 成绩分析
 {
-  int a1 = 0, a = 0, b1 = 0, b = 0, c1 = 0, c = 0, d = 0, f = 0;
+  int a1 = 0, a = 0, b1 = 0, b = 0;
+  int c1 = 0, c = 0, d = 0, f = 0;
   for (int i = 1; i <= cnt; i++)
   {
     int x = stu[i].score_c;
@@ -256,9 +254,13 @@ int main()
 {
   int op;
   printf("He11o,p1s input a series of studentinformation!\n");
+  char first_name[100], last_name[100], id[20];
+  int score;
+  scanf("%s%s%s%d", first_name, last_name, id, &score);
+  add(first_name, last_name, id, score);
   printf("okay, data upload finished. what do you what to \
-  do next? You can enter a number to tel1 me.\n");
-  menu();
+do next? You can enter a number to tel1 me.\n");
+  printMenu();
   while (scanf("%d", &op), op)
   {
     switch (op)
@@ -267,8 +269,8 @@ int main()
     {
       char first_name[100], last_name[100], id[20];
       int score;
-      printf("please input the first_name,last_name,id and\
- the score\n");
+      printf("please input the first_name,last_name,id and \
+the score\n");
       scanf("%s%s%s%d", first_name, last_name, id, &score);
       add(first_name, last_name, id, score);
       break;
@@ -278,7 +280,7 @@ int main()
       char id[20];
       printf("please input the id\n");
       scanf("%s", id);
-      myDelete(id);
+      deleteStu(id);
       break;
     }
     case 3:
@@ -307,7 +309,7 @@ int main()
       int key;
       printf("please input the key\n");
       scanf("%d", &key);
-      printf("%s\n", decrypt(key, tem));
+      printf("%s\n", decrypt(key, tempPtr));
       break;
     }
     case 7:
@@ -320,9 +322,10 @@ int main()
       return 0;
     }
     }
-    printf("okay, data upload finished. what do you what \
-    to do next? You can enter a number to tel1 me.\n");
-    menu();
+    printf("Do you still need my service? You can \
+enter a number to tell me.\n");
+    printMenu();
+    printf("Do you still need my service? You can enter a number to tell me.\n");
   }
   return 0;
 }

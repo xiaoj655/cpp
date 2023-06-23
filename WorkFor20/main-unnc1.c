@@ -5,27 +5,19 @@
 
 typedef struct Student
 {
-  char id[20];          // 学号
-  char first_name[100]; // 名
-  char last_name[100];  // 姓
-  bool relearn;         // 重修
-  int score_c;          // C语言成绩
-  char GPA[2];          // 绩点
-  int Rank;             // 班级排名
+  char id[20];          
+  char first_name[100]; 
+  char last_name[100];  
+  bool relearn;
+  int score_c;
+  char GPA[2];          
+  int Rank;             
 } Student;
 
 Student stu[1020];
 int cnt;
 
-void swap(Student *a, Student *b)
-{
-  Student temp;
-  temp = *a;
-  *a = *b;
-  *b = temp;
-}
-
-void menu() // 打印菜单
+void menu()
 {
   printf("\
 1 add\n\
@@ -39,7 +31,16 @@ void menu() // 打印菜单
   ");
 }
 
-const char *getGPA(int x)
+void swap(Student *a, Student *b)
+{
+  Student tep;
+  tep = *a;
+  *a = *b;
+  *b = tep;
+}
+
+
+const char *gpa(int x)
 {
   if (x >= 93)
   {
@@ -75,20 +76,19 @@ const char *getGPA(int x)
   }
 }
 
-void add(char first_name[100], char last_name[100], char id[20], int score) // 添加学生信息
+void add(char first[100], char last[100], char id[20], int score)
 {
   cnt++;
-  sprintf(stu[cnt].first_name, "%s", first_name);
-  sprintf(stu[cnt].last_name, "%s", last_name);
+  sprintf(stu[cnt].first_name, "%s", first);
+  sprintf(stu[cnt].last_name, "%s", last);
   sprintf(stu[cnt].id, "%s", id);
   stu[cnt].score_c = score;
-  sprintf(stu[cnt].GPA, "%s", getGPA(score));
+  sprintf(stu[cnt].GPA, "%s", gpa(score));
   id[4] = 0;
-  if (strcmp(stu[cnt].id, "2022"))
-    stu[cnt].relearn = true;
+  if (strcmp(stu[cnt].id, "2022")) stu[cnt].relearn = true;
 }
 
-void myDelete(char id[20]) // 删除学生信息
+void myDelete(char id[20])
 {
   for (int i = 1; i <= cnt; i++)
   {
@@ -102,7 +102,7 @@ void myDelete(char id[20]) // 删除学生信息
   }
 }
 
-void Search(char id[20]) // 查找学生信息
+void Search(char id[20])
 {
   for (int i = 1; i <= cnt; i++)
   {
@@ -122,7 +122,7 @@ void Search(char id[20]) // 查找学生信息
   }
 }
 
-void mergesort(int l, int r) // 归并排序
+void mergesort(int l, int r)
 {
   int mid = l + r >> 1;
   if (l >= r)
@@ -150,7 +150,7 @@ void mergesort(int l, int r) // 归并排序
   free(temp);
 }
 
-void Sort_by_score() // 按成绩排序
+void score_sort() 
 {
   mergesort(1, cnt);
   for (int i = 1; i <= cnt; i++)
@@ -162,15 +162,14 @@ void Sort_by_score() // 按成绩排序
   for (int i = 1; i <= cnt; i++)
   {
     printf("%-12s %-12s %-12s %-4s %-3d %9s %-4d\n", stu[i].id, stu[i].first_name,
-           stu[i].last_name, stu[i].relearn ? "yes" : "no", stu[i].score_c, stu[i].GPA, stu[i].Rank);
+           stu[i].last_name, stu[i].relearn ? "yes" : "no",\
+            stu[i].score_c, stu[i].GPA, stu[i].Rank);
   }
 }
 
-char *tem = NULL;
+char *temptr = NULL;
 
-// 加密规则 y = (x+key)%10
-// 解密规则 x = (y-key+10)%10
-const char *encrypt(int key) // 加密
+const char *encrypt(int key)
 {
   static char pvkey[3020];
   int pv = 0;
@@ -183,12 +182,12 @@ const char *encrypt(int key) // 加密
     for (int j = 0; j < len; j++)
       pvkey[pv++] = (temp[j] - '0' + key) % 10 + '0';
   }
-  return tem = pvkey;
+  return temptr = pvkey;
 }
 
-const char *decrypt(int key, char *str) // 解密
+const char *decrypt(int key, char *str)
 {
-  if (tem == NULL)
+  if (temptr == NULL)
     return "请先加密再解密\n";
   static char pckey[3020];
   int pc = 0;
@@ -200,7 +199,7 @@ const char *decrypt(int key, char *str) // 解密
   return pckey;
 }
 
-void analysis() // 成绩分析
+void analysis()
 {
   int a1 = 0, a = 0, b1 = 0, b = 0, c1 = 0, c = 0, d = 0, f = 0;
   for (int i = 1; i <= cnt; i++)
@@ -291,7 +290,7 @@ int main()
     }
     case 4:
     {
-      Sort_by_score();
+      score_sort();
       break;
     }
     case 5:
@@ -307,7 +306,7 @@ int main()
       int key;
       printf("please input the key\n");
       scanf("%d", &key);
-      printf("%s\n", decrypt(key, tem));
+      printf("%s\n", decrypt(key, temptr));
       break;
     }
     case 7:
@@ -321,7 +320,7 @@ int main()
     }
     }
     printf("okay, data upload finished. what do you what \
-    to do next? You can enter a number to tel1 me.\n");
+to do next? You can enter a number to tel1 me.\n");
     menu();
   }
   return 0;

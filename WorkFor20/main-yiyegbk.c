@@ -5,13 +5,13 @@
 
 typedef struct Student
 {
-  char id[20];          // å­¦å·
-  char first_name[100]; // å
-  char last_name[100];  // å§“
-  bool relearn;         // é‡ä¿®
-  int score_c;          // Cè¯­è¨€æˆç»©
-  char GPA[2];          // ç»©ç‚¹
-  int Rank;             // ç­çº§æ’å
+  char id[20];          // Ñ§ºÅ
+  char first_name[100]; // Ãû
+  char last_name[100];  // ĞÕ
+  bool relearn;         // ÖØĞŞ
+  int score_c;          // CÓïÑÔ³É¼¨
+  char GPA[2];          // ¼¨µã
+  int Rank;             // °à¼¶ÅÅÃû
 } Student;
 
 Student stu[1020];
@@ -25,7 +25,7 @@ void swap(Student *a, Student *b)
   *b = temp;
 }
 
-void menu() // æ‰“å°èœå•
+void menu() // ´òÓ¡²Ëµ¥
 {
   printf("\
 1 add\n\
@@ -75,7 +75,7 @@ const char *getGPA(int x)
   }
 }
 
-void add(char first_name[100], char last_name[100], char id[20], int score) // æ·»åŠ å­¦ç”Ÿä¿¡æ¯
+void add(char first_name[100], char last_name[100], char id[20], int score) // Ìí¼ÓÑ§ÉúĞÅÏ¢
 {
   cnt++;
   sprintf(stu[cnt].first_name, "%s", first_name);
@@ -88,7 +88,7 @@ void add(char first_name[100], char last_name[100], char id[20], int score) // æ
     stu[cnt].relearn = true;
 }
 
-void myDelete(char id[20]) // åˆ é™¤å­¦ç”Ÿä¿¡æ¯
+void myDelete(char id[20]) // É¾³ıÑ§ÉúĞÅÏ¢
 {
   for (int i = 1; i <= cnt; i++)
   {
@@ -102,7 +102,7 @@ void myDelete(char id[20]) // åˆ é™¤å­¦ç”Ÿä¿¡æ¯
   }
 }
 
-void Search(char id[20]) // æŸ¥æ‰¾å­¦ç”Ÿä¿¡æ¯
+void Search(char id[20]) // ²éÕÒÑ§ÉúĞÅÏ¢
 {
   for (int i = 1; i <= cnt; i++)
   {
@@ -112,17 +112,17 @@ void Search(char id[20]) // æŸ¥æ‰¾å­¦ç”Ÿä¿¡æ¯
       printf("id: %s\n", stu[i].id);
       printf("first_name: %s", stu[i].first_name);
       printf("last_name: %s\n", stu[i].last_name);
-      printf("é‡ä¿®: %s\n", stu[i].relearn ? "yes" : "no");
-      printf("Cè¯­è¨€æˆç»©: %d\n", stu[i].score_c);
+      printf("ÖØĞŞ: %s\n", stu[i].relearn ? "yes" : "no");
+      printf("CÓïÑÔ³É¼¨: %d\n", stu[i].score_c);
       printf("GPA: %s\n", stu[i].GPA);
-      printf("ç­çº§æ’å: %d\n", stu[i].Rank);
+      printf("°à¼¶ÅÅÃû: %d\n", stu[i].Rank);
       printf("********************************\n");
       break;
     }
   }
 }
 
-void mergesort(int l, int r) // å½’å¹¶æ’åº
+void mergesort(int l, int r) // ¹é²¢ÅÅĞò
 {
   int mid = l + r >> 1;
   if (l >= r)
@@ -150,15 +150,15 @@ void mergesort(int l, int r) // å½’å¹¶æ’åº
   free(temp);
 }
 
-void Sort_by_score() // æŒ‰æˆç»©æ’åº
+void Sort_by_score() // °´³É¼¨ÅÅĞò
 {
   mergesort(1, cnt);
   for (int i = 1; i <= cnt; i++)
   {
     stu[i].Rank = i;
   }
-  printf("%-14s %-12s %-12s %-3s %-3s %-3s %-4s\n", "å­¦å·", "first_name",
-         "last_name", "é‡ä¿®", "Cè¯­è¨€æˆç»©", "GPA", "ç­çº§æ’å");
+  printf("%-14s %-12s %-12s %-3s %-3s %-3s %-4s\n", "Ñ§ºÅ", "first_name",
+         "last_name", "ÖØĞŞ", "CÓïÑÔ³É¼¨", "GPA", "°à¼¶ÅÅÃû");
   for (int i = 1; i <= cnt; i++)
   {
     printf("%-12s %-12s %-12s %-4s %-3d %9s %-4d\n", stu[i].id, stu[i].first_name,
@@ -168,9 +168,9 @@ void Sort_by_score() // æŒ‰æˆç»©æ’åº
 
 char *tem = NULL;
 
-// åŠ å¯†è§„åˆ™ y = (x+key)%10
-// è§£å¯†è§„åˆ™ x = (y-key+10)%10
-const char *encrypt(int key) // åŠ å¯†
+// ¼ÓÃÜ¹æÔò y = (x+key)%10
+// ½âÃÜ¹æÔò x = (y-key+10)%10
+const char *encrypt(int key) // ¼ÓÃÜ
 {
   static char pvkey[3020];
   int pv = 0;
@@ -186,10 +186,10 @@ const char *encrypt(int key) // åŠ å¯†
   return tem = pvkey;
 }
 
-const char *decrypt(int key, char *str) // è§£å¯†
+const char *decrypt(int key, char *str) // ½âÃÜ
 {
   if (tem == NULL)
-    return "è¯·å…ˆåŠ å¯†å†è§£å¯†\n";
+    return "ÇëÏÈ¼ÓÃÜÔÙ½âÃÜ\n";
   static char pckey[3020];
   int pc = 0;
   int len = strlen(str);
@@ -200,7 +200,7 @@ const char *decrypt(int key, char *str) // è§£å¯†
   return pckey;
 }
 
-void analysis() // æˆç»©åˆ†æ
+void analysis() // ³É¼¨·ÖÎö
 {
   int a1 = 0, a = 0, b1 = 0, b = 0, c1 = 0, c = 0, d = 0, f = 0;
   for (int i = 1; i <= cnt; i++)
@@ -240,15 +240,15 @@ void analysis() // æˆç»©åˆ†æ
     }
   }
   printf("***************************\n");
-  printf("è€ƒæƒ…åˆ†æå¦‚ä¸‹ï¼š\n");
-  printf("A+çš„äººæ•°æœ‰%dä¸ª\n", a1);
-  printf("A çš„äººæ•°æœ‰%dä¸ª\n", a);
-  printf("B+çš„äººæ•°æœ‰%dä¸ª\n", b1);
-  printf("B çš„äººæ•°æœ‰%dä¸ª\n", b);
-  printf("C+çš„äººæ•°æœ‰%dä¸ª\n", c1);
-  printf("C çš„äººæ•°æœ‰%dä¸ª\n", c);
-  printf("D çš„äººæ•°æœ‰%dä¸ª\n", d);
-  printf("F çš„äººæ•°æœ‰%dä¸ª\n", f);
+  printf("¿¼Çé·ÖÎöÈçÏÂ£º\n");
+  printf("A+µÄÈËÊıÓĞ%d¸ö\n", a1);
+  printf("A µÄÈËÊıÓĞ%d¸ö\n", a);
+  printf("B+µÄÈËÊıÓĞ%d¸ö\n", b1);
+  printf("B µÄÈËÊıÓĞ%d¸ö\n", b);
+  printf("C+µÄÈËÊıÓĞ%d¸ö\n", c1);
+  printf("C µÄÈËÊıÓĞ%d¸ö\n", c);
+  printf("D µÄÈËÊıÓĞ%d¸ö\n", d);
+  printf("F µÄÈËÊıÓĞ%d¸ö\n", f);
   printf("***************************\n");
 }
 
@@ -257,7 +257,7 @@ int main()
   int op;
   printf("He11o,p1s input a series of studentinformation!\n");
   printf("okay, data upload finished. what do you what to \
-  do next? You can enter a number to tel1 me.\n");
+do next? You can enter a number to tel1 me.\n");
   menu();
   while (scanf("%d", &op), op)
   {

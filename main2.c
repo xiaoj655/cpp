@@ -257,7 +257,7 @@ int main()
   int op;
   printf("He11o,p1s input a series of studentinformation!\n");
   printf("okay, data upload finished. what do you what to \
-  do next? You can enter a number to tel1 me.\n");
+do next? You can enter a number to tel1 me.\n");
   menu();
   while (scanf("%d", &op), op)
   {
