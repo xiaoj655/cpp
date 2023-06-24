@@ -9,7 +9,8 @@ class product
 
 public:
     product() = default;
-    product(int type, int price, int status, string name) : type(type), price(price), status(status), name(name) {}
+    product(int type, int price, int status, string name) : type(type),\
+    price(price), status(status), name(name) {}
     void print()
     {
         switch (type)
