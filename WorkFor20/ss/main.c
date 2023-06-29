@@ -25,82 +25,18 @@ void swap(Student *a, Student *b)
   *b = temp;
 }
 
-void menu() // 打印菜单
-{
-  printf("\
-1 add\n\
-2 delete\n\
-3 search\n\
-4 sort by score\n\
-5 encrypt\n\
-6 decrypt\n\
-7 analysis\n\
-0 exit\n\
-  ");
-}
-
 const char *getGPA(int x)
 {
-  if (x >= 93)
-  {
-    return "A+";
-  }
-  else if (x <= 92 && x >= 85)
-  {
-    return "A";
-  }
-  else if (x <= 84 && x >= 80)
-  {
-    return "B+";
-  }
-  else if (x <= 79 && x >= 75)
-  {
-    return "B";
-  }
-  else if (x <= 74 && x >= 70)
-  {
-    return "C+";
-  }
-  else if (x <= 69 && x >= 65)
-  {
-    return "C";
-  }
-  else if (x <= 64 && x >= 60)
-  {
-    return "D";
-  }
-  else
-  {
-    return "F";
-  }
+  if (x >= 93)  return "A+";
+  else if (x <= 92 && x >= 85)  return "A";
+  else if (x <= 84 && x >= 80)  return "B+";
+  else if (x <= 79 && x >= 75)  return "B";
+  else if (x <= 74 && x >= 70)  return "C+";
+  else if (x <= 69 && x >= 65)  return "C";
+  else if (x <= 64 && x >= 60)  return "D";
+  else  return "F";
 }
 
-void add(char first_name[100], char last_name[100], char id[20], int score) // 添加学生信息
-{
-  cnt++;
-  sprintf(stu[cnt].first_name, "%s", first_name);
-  sprintf(stu[cnt].last_name, "%s", last_name);
-  sprintf(stu[cnt].id, "%s", id);
-  stu[cnt].score_c = score;
-  sprintf(stu[cnt].GPA, "%s", getGPA(score));
-  id[4] = 0;
-  if (strcmp(stu[cnt].id, "2022"))
-    stu[cnt].relearn = true;
-}
-
-void myDelete(char id[20]) // 删除学生信息
-{
-  for (int i = 1; i <= cnt; i++)
-  {
-    if (!strcmp(id, stu[i].id))
-    {
-      swap(stu + i, stu + cnt);
-      stu[cnt];
-      cnt--;
-      break;
-    }
-  }
-}
 
 void Search(char id[20]) // 查找学生信息
 {
@@ -122,16 +58,48 @@ void Search(char id[20]) // 查找学生信息
   }
 }
 
+
+void add(char first_name[100], char last_name[100], char id[20], int score) // 添加学生信息
+{
+  cnt++;
+  sprintf(stu[cnt].first_name, "%s", first_name);
+  sprintf(stu[cnt].last_name, "%s", last_name);
+  sprintf(stu[cnt].id, "%s", id);
+  stu[cnt].score_c = score;
+  sprintf(stu[cnt].GPA, "%s", getGPA(score));
+  id[4] = 0;
+  if (strcmp(id, "2022"))
+    stu[cnt].relearn = true;
+  else 
+    stu[cnt].relearn = false;
+}
+
+void deleteStu(char id[20]) // 删除学生信息
+{
+  for (int i = 1; i <= cnt; i++)
+  {
+    if (!strcmp(id, stu[i].id))
+    {
+      swap(stu + i, stu + cnt);
+      stu[cnt];
+      cnt--;
+      break;
+    }
+  }
+}
+
 void mergesort(int l, int r) // 归并排序
 {
   int mid = l + r >> 1;
-  if (l >= r)
-    return;
+  if (l >= r) return;
+
   mergesort(l, mid);
   mergesort(mid + 1, r);
+
   int i = l, j = mid + 1;
   Student *temp = (Student *)malloc((r - l + 1) * sizeof(Student));
   int k = 0;
+
   while (i <= mid && j <= r)
   {
     if (stu[i].score_c > stu[j].score_c)
@@ -139,18 +107,14 @@ void mergesort(int l, int r) // 归并排序
     else
       temp[k++] = stu[j++];
   }
-  while (i <= mid)
-    temp[k++] = stu[i++];
-  while (j <= r)
-    temp[k++] = stu[j++];
-  for (int i = l; i <= r; i++)
-  {
-    stu[i] = temp[i - l];
-  }
+
+  while (i <= mid)  temp[k++] = stu[i++];
+  while (j <= r)  temp[k++] = stu[j++];
+  for (int i = l; i <= r; i++)  stu[i] = temp[i - l];
   free(temp);
 }
 
-void Sort_by_score() // 按成绩排序
+void sort_by_score() // 按成绩排序
 {
   mergesort(1, cnt);
   for (int i = 1; i <= cnt; i++)
@@ -161,8 +125,10 @@ void Sort_by_score() // 按成绩排序
          "last_name", "重修", "C语言成绩", "GPA", "班级排名");
   for (int i = 1; i <= cnt; i++)
   {
-    printf("%-12s %-12s %-12s %-4s %-3d %9s %-4d\n", stu[i].id, stu[i].first_name,
-           stu[i].last_name, stu[i].relearn ? "yes" : "no", stu[i].score_c, stu[i].GPA, stu[i].Rank);
+    printf("%-12s %-12s %-12s %-4s %-3d %9s %-4d\n",\
+          stu[i].id, stu[i].first_name,stu[i].last_name,\
+          stu[i].relearn ? "是" : "否", stu[i].score_c,\
+          stu[i].GPA, stu[i].Rank);
   }
 }
 
@@ -202,42 +168,19 @@ const char *decrypt(int key, char *str) // 解密
 
 void analysis() // 成绩分析
 {
-  int a1 = 0, a = 0, b1 = 0, b = 0, c1 = 0, c = 0, d = 0, f = 0;
+  int a1 = 0, a = 0, b1 = 0, b = 0;
+  int c1 = 0, c = 0, d = 0, f = 0;
   for (int i = 1; i <= cnt; i++)
   {
     int x = stu[i].score_c;
-    if (x <= 100 && x >= 93)
-    {
-      a1++;
-    }
-    else if (x <= 92 && x >= 85)
-    {
-      a++;
-    }
-    else if (x <= 84 && x >= 80)
-    {
-      b1++;
-    }
-    else if (x <= 79 && x >= 75)
-    {
-      b++;
-    }
-    else if (x <= 74 && x >= 70)
-    {
-      c1++;
-    }
-    else if (x <= 69 && x >= 65)
-    {
-      c++;
-    }
-    else if (x <= 64 && x >= 60)
-    {
-      d++;
-    }
-    else if (x < 60)
-    {
-      f++;
-    }
+    if (x <= 100 && x >= 93)  a1++;
+    else if (x <= 92 && x >= 85)  a++;
+    else if (x <= 84 && x >= 80)  b1++;
+    else if (x <= 79 && x >= 75)  b++;
+    else if (x <= 74 && x >= 70)  c1++;
+    else if (x <= 69 && x >= 65)  c++;
+    else if (x <= 64 && x >= 60)  d++;
+    else if (x < 60)  f++;
   }
   printf("***************************\n");
   printf("考情分析如下：\n");
@@ -252,13 +195,27 @@ void analysis() // 成绩分析
   printf("***************************\n");
 }
 
+void say() // 打印菜单
+{
+  printf("\
+1 add\n\
+2 delete\n\
+3 search\n\
+4 sort by score\n\
+5 encrypt\n\
+6 decrypt\n\
+7 analysis\n\
+0 exit\n\
+  ");
+}
+
 int main()
 {
   int op;
   printf("He11o,p1s input a series of studentinformation!\n");
   printf("okay, data upload finished. what do you what to \
   do next? You can enter a number to tel1 me.\n");
-  menu();
+  say();
   while (scanf("%d", &op), op)
   {
     switch (op)
@@ -278,7 +235,7 @@ int main()
       char id[20];
       printf("please input the id\n");
       scanf("%s", id);
-      myDelete(id);
+      deleteStu(id);
       break;
     }
     case 3:
@@ -291,7 +248,7 @@ int main()
     }
     case 4:
     {
-      Sort_by_score();
+      sort_by_score();
       break;
     }
     case 5:
@@ -322,7 +279,7 @@ int main()
     }
     printf("okay, data upload finished. what do you what \
     to do next? You can enter a number to tel1 me.\n");
-    menu();
+    say();
   }
   return 0;
 }

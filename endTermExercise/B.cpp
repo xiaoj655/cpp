@@ -82,7 +82,7 @@ int main(){
         cin >> y >> m >> d >> h >> min >> s;
         works[cnt++] = new Work(y,m,d,h,min,s,id);
     }
-
+    
     Work& earliest= *works[0];
 
     for(int i=1;i<cnt;i++){

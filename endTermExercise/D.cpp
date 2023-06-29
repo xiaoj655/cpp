@@ -139,8 +139,12 @@ int main()
         cout << "B:";b.say();
         cout << "A+B:";(a+b).say();
         cout << "A*B:";(a*b).say();
-        CSet d = a-b;CSet e = b-a;
+
+        CSet d = a-b;
+        CSet e = b-a;
+
         cout << "(A-B)+(B-A):";(d+e).say();
+
         cout << '\n';
     }
 }
